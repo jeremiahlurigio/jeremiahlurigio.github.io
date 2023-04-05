@@ -1,0 +1,21 @@
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    border: 3px solid salmon;
+}
+
+header{
+    background-color: salmon;
+    padding: 36px;
+}
+
+h1{
+    text-align: center;
+    color: blanchedalmond;
+    margin-bottom: 60px;
+    font-size:48px  
+}
+
+nav a{
+    color:blanchedalmond
+}
