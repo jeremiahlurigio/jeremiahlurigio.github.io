@@ -1,0 +1,48 @@
+#my_grid{
+    display: grid;
+    grid-template-columns:250px 250px 250px;
+    grid-template-areas:
+    ". nav_area nav_area ."
+    ". sidebar_area content_area_1 ."
+    ". sidebar_area content_area_2 ."
+    ". sidebar_area content_area_3 ."
+    ". sidebar_area content_area_4 ."
+    ". sidebar_area content_area_5 ."
+    ". footer_area footer_area .";
+}
+.block{
+    padding:50px;
+    font-size 36px;
+}
+.block_1{
+    background-color:red;
+    grid-area: content_area_2
+}
+.block_2{
+    background-color:purple;
+    grid-area: content_area_3
+}
+.block_3{
+    background-color:pink;
+    grid-area: sidebar_area;
+}
+.block_4{
+    background-color:aqua;
+    grid-area: footer_area
+}
+.block_5{
+    background-color:cadetblue;
+    grid-area: content_area_1
+}
+.block_6{
+    background-color:cornflowerblue;
+    grid-area: content_area_5
+}
+.block_7{
+    background-color: green;
+    grid-area: content_area_4
+}
+.block_8{
+    background-color: darkgoldenrod;
+    grid-area: nav_area;
+}
