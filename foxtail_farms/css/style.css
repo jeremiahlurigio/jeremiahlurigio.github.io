@@ -41,7 +41,7 @@ a {
 nav,
 nav a,
 footer a {
-    color: indigo;
+    color: #e1a177;
 }
 
 nav a:hover,
@@ -137,7 +137,7 @@ nav .social_media {
 nav,
 nav a,
 footer a {
-    color: indigo;
+    color: #e1a177;
 }
 
 nav a:hover,
@@ -166,7 +166,7 @@ footer ul {
     justify-content:center;
     align-items: center; 
     text-align: center;
-    background-image: url("../images/abstractBackground.jpg");
+    background-image: url("https://tse2.mm.bing.net/th?id=OIP.HE5GqkdSkI4OGsMbG7BqpQHaEo&pid=Api&P=0");
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -183,8 +183,8 @@ footer ul {
 #hero a,
 .card a{
     background-color: white;
-    color:indigo;
-    border: 2px solid indigo;
+    color:#e1a177;
+    border: 2px solid #e1a177;
     border-radius: 24px;
     display: inline-block;
     padding: 8px 16px;
@@ -204,12 +204,12 @@ footer ul {
     display:flex;
 }
 .card{
-    border: 2px solid indigo;
-    color: indigo;
+    border: 2px solid #e1a177;
+    color: #e1a177;
     margin: 48px 24px 24px;
     padding: 12px 12px 24px;
     text-align:center;
-    box-shadow: 4px 4px 8px 0px indigo;
+    box-shadow: 4px 4px 8px 0px #e1a177;
     flex: 1;
     display:flex;
     flex-direction:column;
@@ -224,6 +224,8 @@ footer ul {
 ****************************************************************************/
 #gallery_container{
     text-align: center;
+    color: #e1a177;
+
 }
 
 #gallery_1{
