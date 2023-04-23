@@ -1,0 +1,46 @@
+#grid_container{
+    display: grid;
+    grid-template-columns: 1fr 600px 1fr;
+    grid-template-areas:
+        ". header_area ."
+        ". main_area ."
+}
+
+header {
+    grid-area: header_area;
+}
+
+main{
+    grid-area: main_area;
+}
+
+.text_input label{
+    display: block;
+}
+.text_input label{
+    margin: 4px 0px 16px;
+    padding: 12px;
+    font-size: 18px;
+    font-family: Verdana, sans-serif;
+    width: 300px;
+}
+#how_can_we_help_id{
+    border:0px;
+    border-bottom: 4px dashed ;
+}
+#name_id{
+    border:0px;
+    border-bottom: 4px dashed ;
+}
+#email_id{
+    border:0px;
+    border-bottom: 4px dashed ;
+}
+#would_you_reccommend_to_a_friend_id{
+    border:0px;
+    border-bottom: 4px dashed ;
+}
+#are_you_satisfied_with_your_help_id{
+    border:0px;
+    border-bottom: 4px dashed ;
+}
