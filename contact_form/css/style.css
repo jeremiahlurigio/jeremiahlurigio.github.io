@@ -8,10 +8,21 @@
 
 header {
     grid-area: header_area;
+    text-align: center;
 }
 
 main{
     grid-area: main_area;
+}
+
+body{
+    background-color: #FAFAFA;
+}
+
+form{
+    background-color: white;
+    border: 2px solid #CCCCCC;
+    padding: 36px
 }
 
 .text_input label{
@@ -26,21 +37,21 @@ main{
 }
 #how_can_we_help_id{
     border:0px;
-    border-bottom: 4px dashed ;
+    border-bottom: 4px solid ;
 }
 #name_id{
     border:0px;
-    border-bottom: 4px dashed ;
+    border-bottom: 4px solid ;
 }
 #email_id{
     border:0px;
-    border-bottom: 4px dashed ;
+    border-bottom: 4px solid ;
 }
 #would_you_reccommend_to_a_friend_id{
     border:0px;
-    border-bottom: 4px dashed ;
+    border-bottom: 4px solid ;
 }
 #are_you_satisfied_with_your_help_id{
     border:0px;
-    border-bottom: 4px dashed ;
+    border-bottom: 4px solid ;
 }
