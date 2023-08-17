@@ -1,0 +1,38 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the assignment.
+
+    Good luck, and have fun!
+*/
+
+.frame-1,.frame-2,.frame-3{
+    border: 6px ridge silver;
+    margin: 30px 15px 20px;
+    box-shadow: -2px 2px 2px grey;
+}
+
+.frame-1 div, .frame-2 div, .frame-3 div {
+    background-color: #ddd;
+    border: 0px;
+    padding: 16px;
+}
+
+.frame-1 img{
+    width: 80px;
+    border: 1px inset
+}
+
+.frame-2 img{
+    width: 100px;
+    height: 80px;
+    border: 1px inset
+}
+
+.frame-3 p{
+    width: 80px;
+    border: 1px inset;
+    color: black;
+}
+
