@@ -1,0 +1,69 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Generic License assignment.
+
+    Good luck, and have fun!
+*/
+
+h1{
+    text-align: left;
+}
+
+h4 {
+    background-color: blue;
+    color: white;
+    padding: 16px;
+    text-align: center;
+}
+
+#id-and-expiration span{
+    color: red;
+}
+
+#id-and-expiration div{
+    display: inline-block;
+    font-size: small;
+    text-align: left;
+}
+
+#address{
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+#small-pic img{
+    width: 80px;
+}
+
+#data-fields, #small-pic, #data-left, #data-right{
+    font-size: small;
+    display: inline-block;
+}
+
+#data-fields span{
+    color: red;
+}
+
+#signature{
+    text-align: center;
+    font-family: cursive;
+    font-size: large;
+
+}
+
+#big-pic img{
+    width: 150px;
+}
+
+#donor, #real-id{
+    color: red;
+    text-align: center;
+}
+
+
+
+
