@@ -8,7 +8,11 @@
     of the setup.css styling if you do so.
 */
 
-
+#section-1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
 .card-style-1{
     margin: 24px;
