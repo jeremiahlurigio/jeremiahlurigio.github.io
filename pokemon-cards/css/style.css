@@ -7,3 +7,30 @@
     Just be aware that you may break some
     of the setup.css styling if you do so.
 */
+.card-style-3{
+    margin: 24px;
+    padding: 15px;
+    width: 350px;
+    border: 10px solid green;
+    border-radius: 5px;
+    box-shadow: -4px 4px 8px #00000088;
+    background:linear-gradient(-50deg,#146b2d,#77cd6a88,#36ae66);
+    color: black;
+}
+.card-style-3 img{
+width: 300px;
+height: 200px;
+border: 5px solid green;
+}
+
+.card-style-3 h2, .health{
+    text-align: center;
+    display:inline-block;
+    
+}
+.details{
+    background-color: #52f680;
+    text-align: center;
+    font-size: small;
+    border: 2px solid  #52f680;
+}
