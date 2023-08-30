@@ -18,7 +18,7 @@ body {
 }
 
 #hero-1 h1,#hero-2 h1,#hero-3  h1 {
-    font-size: 15vw;
+    font-size: 64px;
     color: rgb(255, 0, 93);
     text-align: center
 }
