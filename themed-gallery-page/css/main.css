@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: rgb(148, 236, 148);
+}
+
+#hero-1 {
+    background-image: url("../images/Nature-beauty.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#hero-1 h1 {
+    font-size: 10vw;
+    padding-left: 10vw;
+    color: rgb(24, 72, 24);
+    margin-bottom: 148px;
+    text-align: center;
+    margin-left: 24px;
+}
+
+#hero-1 a{
+    font-size: 24px;
+    color: rgb(24, 72, 24);
+    padding: 10vw;
+    text-decoration: none;
+    margin-bottom: 118px;
+    text-align: center;
+}
+
+#layout{
+    text-align: center;
+    color: rgb(24, 72, 24);
+    max-width: 800px;
+    margin: 48px auto;
+}
+
+.vertical-masonry-gallery {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 24px;
+    max-height: 1100px;
+}
+
+.vertical-masonry-gallery img {
+    width: 33.33%;
+    border: 2px solid  rgb(24, 72, 24);
+    border-radius: 24px;
+}
+
