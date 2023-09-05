@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:wght@200;400;700&family=Staatliches&display=swap');
+.hero{
+    margin: 25px auto;
+    max-width: 800px;
+}
+
+.hero img, .hero .content{
+    display: inline-block;
+    margin: 0;
+    padding: 10px;
+    width: 45%;
+}
+
+h1, h2, .linkbtn {
+    font-family: 'Staatliches', cursive;
+    color: #A31621;
+}
+p, li, a, blockquote {
+    font-family: 'Poppins', sans-serif;
+}
+
+* {
+    box-sizing: border-box
+}
+
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#FCF7F8;
+}
+body a{
+    color: #A31621;
+}
+
+.single-column {
+    min-width: 600px;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+#card-section {
+    background-color: #CED3DC;
+    color: #A31621;
+    padding: 48px;
+ 
+}
+.card-container {
+    display: flex;
+    justify-content: space-between;
+}
+.card-container a {
+    color:#A31621;
+}
+.card {
+    flex: 1;
+    border: 3px solid #A31621;
+    padding: 36px;
+    text-align: center;
+    margin: 36px;
+}
+
+.card h3 {
+    font-size: 36px;
+    margin: 0px;
+}
+
+.card p {
+    font-size: 24px;
+    margin: 24px 0px 0px;
+}
+
+#layout {
+    max-width: 800px;
+    margin: 48px auto;
+    text-align: center;
+}
+
+#layout{
+    text-align: center;
+    color: rgb(24, 72, 24);
+    max-width: 750px;
+    margin: 48px auto;
+}
+
+.vertical-masonry-gallery {
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    gap: 24px;
+    max-height: 1100px;
+}
+
+.vertical-masonry-gallery img {
+    width: 33.33%;
+    border: 2px solid #A31621;
+}
